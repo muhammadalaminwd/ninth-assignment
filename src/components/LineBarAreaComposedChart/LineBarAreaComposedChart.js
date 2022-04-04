@@ -1,5 +1,6 @@
 import React from 'react';
 import { Area, Bar, CartesianGrid, ComposedChart, Legend, Line, Tooltip, XAxis, YAxis } from 'recharts';
+import './LineBarAreaComposedChart.css'
 
 const LineBarAreaComposedChart = () => {
     const data = [
@@ -47,7 +48,8 @@ const LineBarAreaComposedChart = () => {
         },
       ];
     return (
-        <ComposedChart className='chart' width={800} height={500} data={data}>
+        <div className='chart'>
+        <ComposedChart  width={800} height={500} data={data}>
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
@@ -57,6 +59,7 @@ const LineBarAreaComposedChart = () => {
         <Bar dataKey="pv" barSize={20} fill="#413ea0" />
         <Line type="monotone" dataKey="uv" stroke="#ff7300" />
         </ComposedChart>
+        </div>
     );
 };
 

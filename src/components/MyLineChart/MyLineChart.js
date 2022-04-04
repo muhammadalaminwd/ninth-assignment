@@ -1,5 +1,6 @@
 import React from 'react';
 import { Line, LineChart, XAxis, YAxis } from 'recharts';
+import './MyLineChart.css'
 
 const MyLineChart = () => {
     const data = [
@@ -47,12 +48,14 @@ const MyLineChart = () => {
         },
       ];
     return (
-        <LineChart width={800} height={500} data={data}>
-        <Line dataKey={"price"}></Line>
-        <Line dataKey={"sales"}></Line>
-        <XAxis dataKey={"name"}></XAxis>
-        <YAxis></YAxis>
-        </LineChart>
+      <div className='chart'>
+      <LineChart width={800} height={500} data={data}>
+      <Line dataKey={"price"}></Line>
+      <Line dataKey={"sales"}></Line>
+      <XAxis dataKey={"name"}></XAxis>
+      <YAxis></YAxis>
+      </LineChart>
+      </div>
     );
 };
 
