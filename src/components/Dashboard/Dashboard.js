@@ -1,9 +1,12 @@
 import React from 'react';
+import LineBarAreaComposedChart from '../LineBarAreaComposedChart/LineBarAreaComposedChart';
+import MyLineChart from '../MyLineChart/MyLineChart';
 
 const Dashboard = () => {
     return (
         <div>
-            <h1>I am dashboard</h1>
+            <MyLineChart></MyLineChart>
+            <LineBarAreaComposedChart></LineBarAreaComposedChart>
         </div>
     );
 };
