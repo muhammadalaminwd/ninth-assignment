@@ -1,7 +1,7 @@
 # Getting Started with Create React App
- Markup : - Read Books, Gain Knowledge
-          - [Live Site Link:] (https://ninth-assignment.netlify.app/)
-          - 
+ Markup : -Read Books, Gain Knowledge
+          -[Live Site Link:] (https://ninth-assignment.netlify.app/)
+           
 
 
 
