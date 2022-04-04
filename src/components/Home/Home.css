@@ -24,3 +24,12 @@ h2{
     margin: 20px;
     font-size: 20px;
 }
+.reviews{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}

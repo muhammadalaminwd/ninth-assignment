@@ -5,7 +5,7 @@ import Reviews from './components/Reviews/Reviews'
 import Dashboard from './components/Dashboard/Dashboard'
 import Blogs from './components/Blogs/Blogs'
 import About from './components/About/About'
-import CustomerReviews from './components/CustomerReviews/CustomerReviews';
+// import CustomerReviews from './components/CustomerReviews/CustomerReviews';
 import Home from './components/Home/Home'
 import NotFound from './components/NotFound/NotFound';
 
@@ -22,7 +22,7 @@ function App() {
     <Route path='/about' element={<About></About>}></Route>
     <Route path='*' element={<NotFound></NotFound>}></Route>
     </Routes>
-    <CustomerReviews></CustomerReviews>
+
     </div>
   );
 }

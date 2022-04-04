@@ -4,7 +4,6 @@ import './Reviews.css'
 
 const Reviews = () => {
     const [data, setData] = useHooks();
-    // console.log(data[0].name)
     return (
         <div>
             <h1>What our customers say!</h1>
