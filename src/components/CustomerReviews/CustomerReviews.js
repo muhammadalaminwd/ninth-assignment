@@ -1,10 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './CustomerReviews.css'
 const CustomerReviews = () => {
+    
+    const navigate = useNavigate();
+
+    const showReviews = () => {
+        navigate('/reviews');
+    }
+
     return (
         <div>
             <h1>Customer Reviews(3)</h1>
-            <button className='reviews'>See All Reviews</button>
+            <button onClick={showReviews} className='reviews'>See All Reviews</button>
         </div>
     );
 };

@@ -8,6 +8,7 @@ const Reviews = () => {
     return (
         <div>
             <h1>What our customers say!</h1>
+            <div className='reviewsBooks'>
             {
                 data.map(item => <div>
                     <h2>{item.name}</h2>
@@ -16,6 +17,8 @@ const Reviews = () => {
                     <h2 className='ratings'>Ratings: {item.ratings}</h2>
                     </div>)
             }
+            </div>
+
         </div>
     );
 };

@@ -1,3 +1,8 @@
+.reviewsBooks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .book-name{
     width: 400px;
     height: 400px;
