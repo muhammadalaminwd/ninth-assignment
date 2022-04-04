@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-           
-Project Name: Read Books, Gain Knowledge
+# Read Books, Gain Knowledge
 [Live Site Link](https://ninth-assignment.netlify.app/)
 - This project is about book reviews.
 - There are Reviews, Dashboard, Blogs and other things in the website.
