@@ -1,0 +1,26 @@
+h1{
+    font-size: 100px;
+    color: green;
+}
+h2{
+    font-weight: 400;
+    color: rgb(136, 136, 135);
+}
+.body{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+.body img{
+    width: 600px;
+    margin: 35px;
+}
+.read-me{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
