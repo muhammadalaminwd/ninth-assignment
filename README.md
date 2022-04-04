@@ -1,8 +1,11 @@
 # Getting Started with Create React App
- Markup : -Read Books, Gain Knowledge
-          -[Live Site Link:] (https://ninth-assignment.netlify.app/)
-           
 
+            - Read Books, Gain Knowledge
+          - [Live Site Link](https://ninth-assignment.netlify.app/)
+           
+- George Washington
+- John Adams
+- Thomas Jefferson
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
