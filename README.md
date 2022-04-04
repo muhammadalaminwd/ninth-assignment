@@ -1,7 +1,5 @@
 # Getting Started with Create React App
  Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
           * Bullet list item 2
 
 
