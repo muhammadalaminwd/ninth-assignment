@@ -6,7 +6,7 @@ const Reviews = () => {
     const [data, setData] = useHooks();
     return (
         <div>
-            <h1>What our customers say!</h1>
+            <h1 className='heading'>What our customers say!</h1>
             <div className='reviewsBooks'>
             {
                 data.map(item => <div>

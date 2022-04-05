@@ -3,56 +3,51 @@ import { Line, LineChart, XAxis, YAxis } from 'recharts';
 import './MyLineChart.css'
 
 const MyLineChart = () => {
-    const data = [
-        {
-          name: 'Supplier A',
-          sales: 4000,
-          price: 2400,
-          amt: 2400,
-        },
-        {
-          name: 'Supplier B',
-          sales: 3000,
-          price: 1398,
-          amt: 2210,
-        },
-        {
-          name: 'Supplier C',
-          sales: 2000,
-          price: 9800,
-          amt: 2290,
-        },
-        {
-          name: 'Supplier D',
-          sales: 2780,
-          price: 3908,
-          amt: 2000,
-        },
-        {
-          name: 'Supplier E',
-          sales: 1890,
-          price: 4800,
-          amt: 2181,
-        },
-        {
-          name: 'Supplier F',
-          sales: 2390,
-          price: 3800,
-          amt: 2500,
-        },
-        {
-          name: 'Supplier G',
-          sales: 3490,
-          price: 4300,
-          amt: 2100,
-        },
-      ];
+  const data = [
+      {
+          "month": "Mar",
+          "investment": 100000,
+          "sell": 241,
+          "revenue": 10401
+      },
+      {
+          "month": "Apr",
+          "investment": 200000,
+          "sell": 423,
+          "revenue": 24500
+      },
+      {
+          "month": "May",
+          "investment": 500000,
+          "sell": 726,
+          "revenue": 67010
+      },
+      {
+          "month": "Jun",
+          "investment": 500000,
+          "sell": 529,
+          "revenue": 40405
+      },
+      {
+          "month": "Jul",
+          "investment": 600000,
+          "sell": 601,
+          "revenue": 50900
+      },
+      {
+          "month": "Aug",
+          "investment": 700000,
+          "sell": 670,
+          "revenue": 61000
+      }
+  ];
     return (
       <div className='chart'>
       <LineChart width={800} height={500} data={data}>
-      <Line dataKey={"price"}></Line>
-      <Line dataKey={"sales"}></Line>
-      <XAxis dataKey={"name"}></XAxis>
+      <Line dataKey={"investment"}></Line>
+      <Line dataKey={"revenue"}></Line>
+      <XAxis dataKey={"month"}></XAxis>
+      <XAxis dataKey={"sell"}></XAxis>
       <YAxis></YAxis>
       </LineChart>
       </div>
