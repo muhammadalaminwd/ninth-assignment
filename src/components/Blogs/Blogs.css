@@ -1,4 +1,9 @@
-.question-one{
+.question{
     color: burlywood;
     font-size: 50px;
+}
+.answer{
+    margin-left: 30px;
+    text-align: left;
+    color: rgb(94, 94, 94);
 }
